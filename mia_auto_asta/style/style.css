@@ -1,0 +1,37 @@
+/* Colori Neutri */
+:root {
+    --beige: #F5F5F5;
+    --grigio-scuro: #333;
+    --grigio-chiaro: #666;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--grigio-scuro);
+}
+
+.header {
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: var(--beige);
+}
+
+.form-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .hero {
+        padding: 6rem 1rem;
+    }
+}
